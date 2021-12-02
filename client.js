@@ -15,7 +15,11 @@ const connect = function () {
   });
   conn.on('connect', () => {
     conn.write('Name: BP');
+    conn.write("Say: Lets GOOO!");
+    
+
   });
+
 
 
   //   // MOVE IN A CIRCLE:
